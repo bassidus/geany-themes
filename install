@@ -37,5 +37,5 @@ for file in
     vibrant-ink.conf 
     zenburn.conf; 
 do
-    wget -O $HOME/.config/geany/colorschemes/${file} https://raw.githubusercontent.com/bassidus/geany-themes/${file}
+    wget -O $HOME/.config/geany/colorschemes/${file} https://raw.githubusercontent.com/bassidus/geany-themes/main/${file}
 done
