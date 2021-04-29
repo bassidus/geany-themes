@@ -3,5 +3,6 @@
 mkdir -p $HOME/.config/geany/colorschemes
 
 for file in bespin.conf black.conf darcula.conf dark-colors.conf dark.conf dark-fruit-salad.conf delt-dark.conf epsilon.conf fluffy.conf gedit.conf github.conf himbeere.conf inkpot.conf kugel.conf mc.conf metallic-bottle.conf monokai.conf notepad-plus-plus.conf oblivion2.conf pygments.conf railcasts2.conf retro.conf sleepy-pastel.conf slushpoppies.conf solarized-dark.conf solarized-light.conf spyder-dark.conf steampunk.conf tango-dark.conf tango-light.conf tinge.conf ubuntu.conf vibrant-ink.conf zenburn.conf; do
+  echo ${file}
   wget -O $HOME/.config/geany/colorschemes/${file} https://raw.githubusercontent.com/bassidus/geany-themes/main/${file}
 done
